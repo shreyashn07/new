@@ -6,7 +6,9 @@ namespace Class_object
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Programmer programmer = new Programmer(6, "Java", "bla", "bla");
+            Console.WriteLine(programmer.getFavLanguage());
+            Console.WriteLine(programmer.getName());
         }
     }
 }
